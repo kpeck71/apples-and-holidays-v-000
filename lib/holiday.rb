@@ -54,9 +54,6 @@ end
 
 
 def all_supplies_in_holidays(holiday_hash)
-  seas = nil
-  holz = nil
-
   holiday_hash.each do |seasons, holidays|
     puts seasons.to_s.capitalize! + ":"
     holidays.each do |holiday, supplies|
